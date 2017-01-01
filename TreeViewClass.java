@@ -38,7 +38,7 @@ public class TreeViewClass extends Application {
         //Create label that reports state of selected tree item
         response = new Label("No Selection");
         
-        TreeItem<String> tiRoot = new TreeItem<String>("Plan");
+        TreeItem<String> tiRoot = new TreeItem<String>("ActionPlan");
         
         TreeItem<String> tiFruit = new TreeItem<String>("TaskingExpression");
         
@@ -57,10 +57,19 @@ public class TreeViewClass extends Application {
         
         tiRoot.getChildren().add(tiFruit);
         
-        TreeView<String> tvTaskingExpression = new TreeView<String>(tiRoot);
+        
+        TreeItem<String> tiRoles = new TreeItem<String>("Roles");
+        
+        TreeItem<String> tiResources = new TreeItem<String>("Resources");
+        
+        TreeItem<String> tiHazards = new TreeItem<String>("Hazards");
+        
+        TreeItem<String> tiEnvironmentalFactors = new TreeItem<String>("Environmental Factors");
+        
+        TreeView<String> tvStrPlanRep = new TreeView<String>(tiRoot);
         
         MultipleSelectionModel<TreeItem<String>> tvSelModel =
-                tvTaskingExpression.getSelectModel();
+                tvStrPlanRep.getSelectModel();
         
         tvSelModel.selectedItemProperty().addListener(
         new ChangeListener<TreeItem<String>>(){
@@ -84,7 +93,7 @@ public class TreeViewClass extends Application {
             }
         });
         //Add controls to scene path
-        rootNode.getChildren().addAll(tvTaskingExpression, response);
+        rootNode.getChildren().addAll(tvStrPlanRep, response);
         //Show stage and scene
         myStage.show();
         
