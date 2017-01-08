@@ -6,10 +6,11 @@ import javafx.scene.layout.*;
 import javafx.scene.control.*; 
 import javafx.event.*; 
 import javafx.geometry.*; 
-import javafx.scene.input.*; 
 
  
-public class PlanMenu extends Application { 
+public class PlanMenu extends Application{ 
+    
+    
   
 Label response; 
 public static void main(String args[]){ 
@@ -30,40 +31,38 @@ String name = ((MenuItem)ae.getTarget()).getText();
 if(name.equals("Exit")) Platform.exit(); 
 response.setText( name + " selected"); 
 } 
-}; 
+};
+
 MenuBar mb = new MenuBar(); 
+
 TextField tf = new TextField(); 
 tf.setPrefColumnCount(20); 
 
-rootNode.setOnContextMenuRequested(); 
-tf.setContextMenu(editMenu); 
-new EventHandler<ContextMenuEvent>(){ 
-public void handle(ContextMenuEvent ae){ 
-//Popup menu at location of right click 
-editMenu.show(rootNode, ae.getScreenX(), ae.getScreenY()); 
-} 
-}; 
+ToolBar tbDebug = new ToolBar();
+
 rootNode.setTop(mb); 
+
+rootNode.setBottom(tbDebug); 
+
 FlowPane fpRoot = new FlowPane(10, 10); 
 fpRoot.setAlignment(Pos.CENTER); 
 Separator separator = new Separator(); 
 separator.setPrefWidth(260); 
 fpRoot.getChildren().addAll(response, separator, tf); 
-rootNode.setBottom(tbDebug); 
 rootNode.setCenter(fpRoot); 
 myStage.show(); 
 
-Menu fileMenu = new Menu("_File"); 
-MeunItem open = new MenuItem("Open"); 
-MeunItem close = new MenuItem("Close"); 
-MeunItem save = new MenuItem("Save"); 
-MeunItem exit = new MenuItem("Exit"); 
+Menu fileMenu = new Menu("File"); 
+MenuItem open = new MenuItem("Open"); 
+MenuItem close = new MenuItem("Close"); 
+MenuItem save = new MenuItem("Save"); 
+MenuItem exit = new MenuItem("Exit"); 
 fileMenu.getItems().addAll(open, close, save, new SeparatorMenuItem(), exit);
 
-open.setAccelerator(KeyCombination.keyCombination("shortcut+O")); 
-close.setAccelerator(KeyCombination.keyCombination("shortcut+C")); 
-save.setAccelerator(KeyCombination.keyCombination("shortcut+S")); 
-exit.setAccelerator(KeyCombination.keyCombination("shortcut+E")); 
+//open.setAccelerator(KeyCombination.keyCombination("shortcut+O")); 
+//close.setAccelerator(KeyCombination.keyCombination("shortcut+C")); 
+//save.setAccelerator(KeyCombination.keyCombination("shortcut+S")); 
+//exit.setAccelerator(KeyCombination.keyCombination("shortcut+E")); 
 
 open.setOnAction(MEHandler); 
 close.setOnAction(MEHandler); 
@@ -73,28 +72,21 @@ exit.setOnAction(MEHandler);
 mb.getMenus().add(fileMenu); 
 
 Menu toolsMenu = new Menu("Tools"); 
-Menu coreMenu = new Menu("Core"); 
+
 MenuItem strrep = new MenuItem("Structural Plan Representation");  
 MenuItem semrep = new MenuItem("Semanitic Plan Representation"); 
 MenuItem absarg = new MenuItem("Abstract Argumentation Tool"); 
-coreMenu.getItems().addAll(strrep, semrep, absarg); 
-toolsMenu.getItems().add(coreMenu); 
+toolsMenu.getItems().addAll(strrep, semrep, absarg); 
+
 mb.getMenus().add(toolsMenu); 
 
-Menu priorityMenu = new Menu("Priority"); 
-MenuItem high = new MenuItem("High"); 
-MenuItem low = new MenuItem("Low"); 
-priorityMenu.getItems().addALL(high, low); 
-toolsMenu.getItems().add(priorityMenu); 
-toolsMenu.getItems().add(new SeparatorMenuItem()); 
 
 MenuItem metric = new MenuItem("Metric"); 
 toolsMenu.getItems().add(metric); 
 strrep.setOnAction(MEHandler); 
 semrep.setOnAction(MEHandler); 
 absarg.setOnAction(MEHandler); 
-high.setOnAction(MEHandler); 
-low.setOnAction(MEHandler); 
+
 metric.setOnAction(MEHandler); 
 mb.getMenus().add(toolsMenu); 
 
@@ -117,3 +109,4 @@ mb.getMenus().add(editMenu);
 } 
 
  
+
