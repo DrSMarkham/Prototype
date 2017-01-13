@@ -1,4 +1,5 @@
- To change this license header, choose License Headers in Project Properties.
+/*
+ * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */ 
@@ -40,20 +41,20 @@ public class TEScroll extends Application {
         myStage.setScene(myScene);
         
         Label scrlLabel = 
- new Label("The tasking grammar scopes the assignment of single specific\n" +
-"tasks to specific units as well as the giving of details of coordination.\n" +
+ new Label("The tasking grammar scopes the assignment of single specific \n" +
+"tasks to specific units as well as the giving of details of coordination. \n" +
 "Therefore, the head rule of the tasking grammar is:\n" +
 "(1) S → OB* C_Sp* C_T*\n" +
-"This rule means that a tasking expression consists of\n" +
-"basic order expressions to assign tasks to units\n" +
-"(indicated by the non-terminal OB), spatial coordination\n" +
-"(indicated by the non-terminal C_Sp), and temporal\n" +
-       "coordination (indicated by the non-terminal C_T).\n" + 
-       "The asterisk indicates that arbitrarily many of the\n" +
-       "respective expressions can be concatenated together.\n" +
-" Basic order expressions are composed of a verb and its frame.\n" +
-"The verb denotes a task. These tasking verbs are taken from\n" +
-"JC3IEDM’s table “action-task-activity-code.” Thus, the rules\n" + 
+"This rule means that a tasking expression consists of \n" +
+"basic order expressions to assign tasks to units \n" +
+"(indicated by the non-terminal OB), spatial coordination \n" +
+"(indicated by the non-terminal C_Sp), and temporal \n" +
+       "coordination (indicated by the non-terminal C_T). \n" + 
+       "The asterisk indicates that arbitrarily many of the \n" +
+       "respective expressions can be concatenated together. \n" +
+" Basic order expressions are composed of a verb and its frame. \n" +
+"The verb denotes a task. These tasking verbs are taken from \n" +
+"JC3IEDM’s table “action-task-activity-code.” Thus, the rules \n" + 
 "to expand OB have the general form:\n" +
 "OB → Verb Tasker Taskee(Affected|Action) Where\n" +
 "Start-When (End-When) Why Label (Mod)*\n" + "\n" +
