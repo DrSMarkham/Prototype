@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package planningtool;
+//package planningtool;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
@@ -62,7 +62,7 @@ public class PlanningTool extends Application {
         grid.add(hbBtn, 1, 4);
         
         final Text actiontarget = new Text();
-        grid.add(actiontarget, 1, 6);
+        grid.add(actiontarget, 1, 5);
 
         btn.setOnAction(new EventHandler<ActionEvent>() {
  
@@ -70,8 +70,9 @@ public class PlanningTool extends Application {
         public void handle(ActionEvent e) {
         actiontarget.setFill(Color.FIREBRICK);
         actiontarget.setText("Sign in button pressed");
-    }
-});
+        }
+    });
+        
 
 
         Scene scene = new Scene(grid, 300, 275);
@@ -89,4 +90,3 @@ public class PlanningTool extends Application {
     }
     
 }
-
