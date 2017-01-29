@@ -1,4 +1,4 @@
-/*
+/*This Follows New Plan Frame and is followed by Palling Tool Descriptor Frames
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -146,7 +146,7 @@ public class Prototypemenu extends Application {
         root.setOnContextMenuRequested(
         new EventHandler<ContextMenuEvent>(){
             public void handle(ContextMenuEvent ae) {
-                editMenu.show(root, ae.getScreenX(), ae.getScreenY());s
+                editMenu.show(root, ae.getScreenX(), ae.getScreenY());
             }
         });
         
