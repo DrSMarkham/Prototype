@@ -10,7 +10,7 @@ import java.awt.event.*;
 public class Log extends JFrame {
 
 public static void main(String[] args) {
-Log frameTabel = new Log();
+Log frameTable = new Log();
 }
 
 JButton blogin = new JButton("Login");
@@ -60,4 +60,5 @@ txuser.requestFocus();
 });
 }
 }
+
 
