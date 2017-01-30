@@ -11,7 +11,7 @@ public class PlanAbsArg {
     } catch (Exception evt) {}
   
     JFrame f = new JFrame("Abstract Argumentation Tool");
-    JTextArea ta = new JTextArea(100, 100);
+    JTextArea ta = new JTextArea(150, 150);
     ta.setText(
                 "Toulmin Diagram\n" + "\n" +
     "Claim: the position or claim being argued for; the conclusion of the argument.\n" +
@@ -30,7 +30,33 @@ public class PlanAbsArg {
 " Instances of experiential learning can be represented as grounds, backing,\n" +
 "rebuttal, qualifier as appropriate together with data relating to other\n" +
 "(contextual) features of the new plan.\n" 
-                        + "\n" 
+                        + "\n" + 
+"The Araucaria system [30] provides an interface which supports the diagramming\n" +
+"process, and then saves the result using AML, an open standard, designed in\n" +
+"XML, for describing argument structure. Araucaria aims to be of use not only \n" +
+"in pedagogical situations, but also in support of research activity. As a\n" +
+"result, it has been designed from the outset to handle more advanced \n" + 
+"argumentation theoretic concepts such as schemes, which capture stereotypical\n" +
+"patterns of reasoning. The software is also designed to be compatible with a\n" +
+"number of applications under development, including dialogic interaction and\n" +
+"online corpus provision. Together, these features, combined with its platform\n" +
+"independence and ease of use, have the potential to make Araucaria a valuable\n" +
+"resource for the academic community.\n" +
+"Araucaria allows you to build argument diagrams by selecting phrases of text\n" +
+"to represent the premises and conclusion of an argument and building a tree\n" +
+"diagram interactively using the mouse. The argument text may be loaded from a\n" +
+"disk file, and is displayed in the blue panel on the left. Use the mouse to\n" +
+"select a portion of this text and then click on the grey panel on the right to\n" +
+"create a node corresponding to this text. When you have selected the nodes you\n" +
+"require, join them up by selecting one node (the premise) with the mouse and \n" +
+"dragging the mouse (holding down the left button while moving the mouse) to\n" +
+"the other node (the conclusion supported by the premise). Nodes and edges with\n" +
+"a tree can be selected with the mouse. Selected objects can be deleted by\n" +
+"pressing the 'Delete' key. Information on selected objects also appears in\n" +
+"the yellow panel at the bottom. Araucaria supports different diagramming\n" +
+"styles, currently the Standard 'box-and-arrow' approach, and the Toulmin\n" +
+"approach."
+
     );
     f.getContentPane().add(ta);
     f.pack();
