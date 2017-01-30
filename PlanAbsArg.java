@@ -31,18 +31,10 @@ public class PlanAbsArg {
 "rebuttal, qualifier as appropriate together with data relating to other\n" +
 "(contextual) features of the new plan.\n" 
                         + "\n" + 
-"The Araucaria system [30] provides an interface which supports the diagramming\n" +
+"The Araucaria system provides an interface which supports the diagramming\n" +
 "process, and then saves the result using AML, an open standard, designed in\n" +
-"XML, for describing argument structure. Araucaria aims to be of use not only \n" +
-"in pedagogical situations, but also in support of research activity. As a\n" +
-"result, it has been designed from the outset to handle more advanced \n" + 
-"argumentation theoretic concepts such as schemes, which capture stereotypical\n" +
-"patterns of reasoning. The software is also designed to be compatible with a\n" +
-"number of applications under development, including dialogic interaction and\n" +
-"online corpus provision. Together, these features, combined with its platform\n" +
-"independence and ease of use, have the potential to make Araucaria a valuable\n" +
-"resource for the academic community.\n" +
-"Araucaria allows you to build argument diagrams by selecting phrases of text\n" +
+"XML, for describing argument structure.\n" +
+" Araucaria allows you to build argument diagrams by selecting phrases of text\n" +
 "to represent the premises and conclusion of an argument and building a tree\n" +
 "diagram interactively using the mouse. The argument text may be loaded from a\n" +
 "disk file, and is displayed in the blue panel on the left. Use the mouse to\n" +
