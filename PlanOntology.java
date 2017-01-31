@@ -1,3 +1,6 @@
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import javax.swing.*;
 import javax.swing.text.*;
 //Follow PlanAbsArg.java and before PlanJavaDON.java
@@ -8,6 +11,8 @@ public class PlanOntology {
     } catch (Exception evt) {}
   
     JFrame f = new JFrame("Semantic Plan Representation Tool");
+    
+		
     JTextArea ta = new JTextArea(100, 100);
     ta.setText(
                 "Semantic Plan Representation Tool\n" + "\n" +
@@ -42,11 +47,37 @@ public class PlanOntology {
 "an action planned and the actualised action. \n"
 
     );
-    f.getContentPane().add(ta);
-    f.pack();
-    f.setVisible(true);
+    
 
-    ((AbstractDocument)ta.getDocument()).dump(System.out);
+    
+    
+    JButton btnNewFrame = new JButton("Continue");
+		//add actionListener
+		btnNewFrame.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent arg0)
+			{
+				//call the object of NewWindow and set visible true
+				NewWindow frame = new NewWindow();
+				frame.setVisible(true);
+				//set default close operation
+				//setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+			}
+		});
+                
+                btnNewFrame.setFont(new Font("Microsoft YaHei UI", Font.BOLD, 12));
+		//set bounds of the Button
+		btnNewFrame.setBounds(180, 195, 78, 25);
+                
+                
+                f.getContentPane().add(ta);
+    //add Button into contentPane
+		ta.add(btnNewFrame);
+                f.pack();
+                f.setVisible(true);
+		((AbstractDocument)ta.getDocument()).dump(System.out);
+    
+    
   }
 }
 
