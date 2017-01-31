@@ -22,10 +22,10 @@ public void actionPerformed(ActionEvent event){
 
 public static void main(String[] args) {
 
-    PlanToolOJ t=new PlanToolOJ();
-    t.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    t.setVisible(true);
-    t.setSize(new Dimension(500,400));  
+    //PlanToolOJ t=new PlanToolOJ();
+    //t.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    //t.setVisible(true);
+    //t.setSize(new Dimension(500,400));  
  }
 
 }
