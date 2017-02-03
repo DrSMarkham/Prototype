@@ -207,3 +207,10 @@ public class NewWindow2 extends JFrame
 
 
 //public TestScrollPane03() {
+        //EventQueue.invokeLater(new Runnable() {
+            //@Override
+            //public void run() {
+                
+          //  }
+        //});
+    //} 

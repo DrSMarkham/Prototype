@@ -156,8 +156,8 @@ public class NewWindow1 extends JFrame
 			public void actionPerformed(ActionEvent arg0)
 			{
 				//call the object of NewWindow and set visible true
-				NewWindow2 frame2 = new NewWindow2();
-				frame2.setVisible(true);
+				NewWindow2 frame = new NewWindow2();
+				frame.setVisible(true);
 				//set default close operation
 				//setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 			}
