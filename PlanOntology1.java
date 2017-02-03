@@ -67,7 +67,7 @@ public class PlanOntology1 {
                 
                 btnNewFrame.setFont(new Font("Microsoft YaHei UI", Font.BOLD, 12));
 		//set bounds of the Button
-		btnNewFrame.setBounds(180, 195, 78, 25);
+		btnNewFrame.setBounds(280, 650, 178, 25);
                 
                 
                 f.getContentPane().add(ta);

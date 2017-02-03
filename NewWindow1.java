@@ -1,11 +1,13 @@
 
-import java.awt.BorderLayout;
 import java.awt.EventQueue;
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
-import javax.swing.border.EmptyBorder;
+import javax.swing.text.AbstractDocument;
  
 //create class and extend with JFrame
 public class NewWindow1 extends JFrame 
@@ -25,12 +27,16 @@ public class NewWindow1 extends JFrame
 			public void run()
 			{
 				//try - catch block
-				try 
-				{
+				//
+                            
+                            try 
+				                             
+                                
+                            {
 					//Create object of NewWindow
-					NewWindow1 frame = new NewWindow1();
+				//	NewWindow1 frame = new NewWindow1();
 					//set frame visible true
-					frame.setVisible(false);					
+				//	frame.setVisible(false);					
 				}
 				catch (Exception e) 
 				{
@@ -46,27 +52,27 @@ public class NewWindow1 extends JFrame
 	public NewWindow1() //constructor
 	{
 		//set frame title
-		setTitle("Semantic Plan Representation");
+		//setTitle("Semantic Plan Representation");
 		//set default close operation
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		//set bounds of the frame
-		setBounds(100, 100, 450, 300);
+		//setBounds(200, 200, 450, 300);
 		
 		//create object of JPanel
-		contentPane = new JPanel();
+		//contentPane = new JPanel();
 		//set border
-		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		//contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		//set ContentPane
-		setContentPane(contentPane);
+		//setContentPane(contentPane);
 		//set null
-		contentPane.setLayout(null);
+		//contentPane.setLayout(null);
                 
                 JTextArea textArea = new JTextArea(100, 100);
                 
                 //JTextArea ta = new JTextArea(100, 100);
     textArea.setText(
-                "Semantic Plan Representation Tool\n" + "\n" +
-    "To create a new ontology, use CreateNewProject and enter the relevant\n" +
+               // "Semantic Plan Representation Tool\n" + "\n" +
+    " To create a new ontology, use CreateNewProject and enter the relevant\n" +
     "domain knowledge into the knowledge base. This process may require a \n" +
     "number of iterations. To create a frame, go to the Frames tab and right\n" +
     "click on new. To add attributes to that frame, right click on add slot.\n" +
@@ -106,12 +112,12 @@ public class NewWindow1 extends JFrame
                 
                 
                 
-                JScrollPane scrollPane = new JScrollPane(textArea);
+                //JScrollPane scrollPane = new JScrollPane(textArea);
                 JFrame frame = new JFrame("Semantic Representation Plan");
                 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                frame.setLayout(new BorderLayout());
-                frame.add(scrollPane);
-                frame.setSize(200, 200);
+                //frame.setLayout(new BorderLayout());
+                //frame.add(scrollPane);
+                frame.setSize(100, 100);
                 frame.setLocationRelativeTo(null);
                 frame.setVisible(true);
 		
@@ -124,8 +130,52 @@ public class NewWindow1 extends JFrame
 		//set bounds of the label
 		//lblWelcome.setBounds(75, 100, 294, 32);
 		//add label to the contentPane 
-		//contentPane.add(lblWelcome);
+		//contentPane.add(lblWelcome
                 
+                //JPanel inputpanel = new JPanel();
+                //inputpanel.setLayout(new FlowLayout());
+                //JTextField input = new JTextField(20);
+                //JButton button = new JButton("Continue");
+                //DefaultCaret caret = (DefaultCaret) textArea.getCaret();
+                //caret.setUpdatePolicy(DefaultCaret.ALWAYS_UPDATE);
+                //inputpanel.add(scroller);
+                //inputpanel.add(input);
+                //inputpanel.add(button);
+                //contentPane.add(inputpanel);
+                //frame.getContentPane().add(BorderLayout.CENTER, contentPane);
+                //frame.pack();
+                //frame.setLocationByPlatform(true);
+                //frame.setVisible(true);
+                //frame.setResizable(false);
+                //input.requestFocus();
+                
+                JButton btnNewFrame1 = new JButton("Continue");
+		//add actionListener
+		btnNewFrame1.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent arg0)
+			{
+				//call the object of NewWindow and set visible true
+				NewWindow2 frame2 = new NewWindow2();
+				frame2.setVisible(true);
+				//set default close operation
+				//setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+			}
+		});
+                
+                btnNewFrame1.setFont(new Font("Microsoft YaHei UI", Font.BOLD, 12));
+		//set bounds of the Button
+		btnNewFrame1.setBounds(280, 650, 178, 25);
+                
+                
+                frame.getContentPane().add(textArea);
+    //add Button into contentPane
+		textArea.add(btnNewFrame1);
+                frame.pack();
+                frame.setVisible(true);
+		((AbstractDocument)textArea.getDocument()).dump(System.out);
+    
+    
                 
                 
 //public class PlanJavaDON {
