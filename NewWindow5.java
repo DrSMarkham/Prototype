@@ -10,7 +10,7 @@ import javax.swing.JTextArea;
 import javax.swing.text.AbstractDocument;
  
 //create class and extend with JFrame
-public class NewWindow3 extends JFrame 
+public class NewWindow5 extends JFrame 
 {
 	//declare variable
 	private JPanel contentPane;
@@ -49,7 +49,7 @@ public class NewWindow3 extends JFrame
 	/**
 	 * Create the frame.
 	 */
-	public NewWindow3() //constructor
+	public NewWindow5() //constructor
 	{
 		//set frame title
 		//setTitle("Semantic Plan Representation");
@@ -67,23 +67,44 @@ public class NewWindow3 extends JFrame
 		//set null
 		//contentPane.setLayout(null);
                 
-                
                 JTextArea textArea = new JTextArea(100, 100);
                 
                 //JTextArea ta = new JTextArea(100, 100);
-    textArea.setText(
-                " One of the key approaches to visual representation in the \n" +
-                "discipline of abstract argumentation is diagramming. Argument\n" +
-                "diagramming is the process of spatially representing an \n" +
-                "argument by its component parts and their relationships.The claims\n" +
-                "and their associated reasons within a given argument are\n" +
-                "identified, and the relationships between them drawn up as\n" +
-                "trees. This diagram then serves as a basis for criticism and\n" +
-                "reflection.  By identifying the structure of an argument in \n" +
-                "terms of its constituents and the relationships between them,\n" +
-                "it becomes easier to critically evaluate each part of an \n" +
-                "argument in turn."
- );
+    textArea.setText( "Toulmin Diagram\n" + "\n" +
+    "Claim: the position or claim being argued for; the conclusion of the argument.\n" +
+"Grounds: reasons or supporting evidence that bolster the claim.\n" +
+"Warrant: the principle, provision or chain of reasoning that connects the\n" +
+"grounds/reason to the claim.\n" +
+"Backing: support, justification, reasons to back up the warrant.\n" +
+"Rebuttal/Reservation: exceptions to the claim; description and rebuttal of\n" +
+"counter-examples and counter-arguments.\n" +
+"Qualification: specification of limits to claim, warrant and backing.  The \n" +
+"degree of conditionality asserted.\n" +
+"\n" +
+" The claim will represent the desired objective (mission, operation event)\n" + 
+"together with the proposed means of actualisation (tasks, roles, resources,\n" +
+"etc.)\n" +
+" Instances of experiential learning can be represented as grounds, backing,\n" +
+"rebuttal, qualifier as appropriate together with data relating to other\n" +
+"(contextual) features of the new plan.\n" 
+                        + "\n" + 
+"The Araucaria system provides an interface which supports the diagramming\n" +
+"process, and then saves the result using AML, an open standard, designed in\n" +
+"XML, for describing argument structure.\n" +
+" Araucaria allows you to build argument diagrams by selecting phrases of text\n" +
+"to represent the premises and conclusion of an argument and building a tree\n" +
+"diagram interactively using the mouse. The argument text may be loaded from a\n" +
+"disk file, and is displayed in the blue panel on the left. Use the mouse to\n" +
+"select a portion of this text and then click on the grey panel on the right to\n" +
+"create a node corresponding to this text. When you have selected the nodes you\n" +
+"require, join them up by selecting one node (the premise) with the mouse and \n" +
+"dragging the mouse (holding down the left button while moving the mouse) to\n" +
+"the other node (the conclusion supported by the premise). Nodes and edges with\n" +
+"a tree can be selected with the mouse. Selected objects can be deleted by\n" +
+"pressing the 'Delete' key. Information on selected objects also appears in\n" +
+"the yellow panel at the bottom. Araucaria supports different diagramming\n" +
+"styles, currently the Standard 'box-and-arrow' approach, and the Toulmin\n" +
+"approach. ");
                // "Semantic Plan Representation Tool\n" + "\n" +
     
                 
@@ -111,30 +132,44 @@ public class NewWindow3 extends JFrame
 		//contentPane.add(lblWelcome
                 
                 //JPanel inputpanel = new JPanel();
+                //inputpanel.setLayout(new FlowLayout());
+                //JTextField input = new JTextField(20);
+                //JButton button = new JButton("Continue");
+                //DefaultCaret caret = (DefaultCaret) textArea.getCaret();
+                //caret.setUpdatePolicy(DefaultCaret.ALWAYS_UPDATE);
+                //inputpanel.add(scroller);
+                //inputpanel.add(input);
+                //inputpanel.add(button);
+                //contentPane.add(inputpanel);
+                //frame.getContentPane().add(BorderLayout.CENTER, contentPane);
+                //frame.pack();
+                //frame.setLocationByPlatform(true);
+                //frame.setVisible(true);
+                //frame.setResizable(false);
+                //input.requestFocus();
                 
-                
-                JButton btnNewFrame3 = new JButton("Continue");
+                JButton btnNewFrame5 = new JButton("Continue");
 		//add actionListener
-		btnNewFrame3.addActionListener(new ActionListener()
+		btnNewFrame5.addActionListener(new ActionListener()
 		{
 			public void actionPerformed(ActionEvent arg0)
 			{
 				//call the object of NewWindow and set visible true
-				NewWindow4 frame = new NewWindow4();
-				//frame.setVisible(true);
+				NewWindow6 frame = new NewWindow6();
+				frame.setVisible(true);
 				//set default close operation
 				setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 			}
 		});
                 
-                btnNewFrame3.setFont(new Font("Microsoft YaHei UI", Font.BOLD, 12));
+                btnNewFrame5.setFont(new Font("Microsoft YaHei UI", Font.BOLD, 12));
 		//set bounds of the Button
-		btnNewFrame3.setBounds(280, 650, 178, 25);
+		btnNewFrame5.setBounds(280, 650, 178, 25);
                 
                 
                 frame.getContentPane().add(textArea);
     //add Button into contentPane
-		textArea.add(btnNewFrame3);
+		textArea.add(btnNewFrame5);
                 frame.pack();
                 frame.setVisible(true);
 		((AbstractDocument)textArea.getDocument()).dump(System.out);
@@ -168,3 +203,12 @@ public class NewWindow3 extends JFrame
 
 
 
+
+//public TestScrollPane03() {
+        //EventQueue.invokeLater(new Runnable() {
+            //@Override
+            //public void run() {
+                
+          //  }
+        //});
+    //} 
