@@ -148,6 +148,26 @@ public class NewWindow5 extends JFrame
                 //frame.setResizable(false);
                 //input.requestFocus();
                 
+                JButton btnNewFramea = new JButton("Deploy Tool");
+		//add actionListener
+		btnNewFramea.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent arg0)
+			{
+				//call the object of NewWindow and set visible true
+				//NewWindow6 frame = new NewWindow6();
+				//frame.setVisible(true);
+				//set default close operation
+				//setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+                            new PlanToolPBA();
+			}
+		});
+                
+                
+                btnNewFramea.setFont(new Font("Microsoft YaHei UI", Font.BOLD, 12));
+		//set bounds of the Button
+		btnNewFramea.setBounds(280, 650, 178, 25);
+                
                 JButton btnNewFrame5 = new JButton("Continue");
 		//add actionListener
 		btnNewFrame5.addActionListener(new ActionListener()
@@ -169,10 +189,15 @@ public class NewWindow5 extends JFrame
                 
                 frame.getContentPane().add(textArea);
     //add Button into contentPane
+                textArea.add(btnNewFramea);
 		textArea.add(btnNewFrame5);
                 frame.pack();
                 frame.setVisible(true);
 		((AbstractDocument)textArea.getDocument()).dump(System.out);
+        }
+}
+
+
     
     
                 
@@ -196,19 +221,6 @@ public class NewWindow5 extends JFrame
     //contentPane.setVisible(true);
 
     //((AbstractDocument)ta.getDocument()).dump(System.out);
-	}
-}
-
-
-
-
-
-
-//public TestScrollPane03() {
-        //EventQueue.invokeLater(new Runnable() {
-            //@Override
-            //public void run() {
-                
-          //  }
-        //});
-    //} 
+	
+        
+        

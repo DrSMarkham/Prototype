@@ -49,7 +49,25 @@ public class PlanOntology3 {
     );
     
 
-    
+    JButton btnNewFramea = new JButton("Deploy Tool");
+		//add actionListener
+		btnNewFramea.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent arg0)
+			{
+				//call the object of NewWindow and set visible true
+				//NewWindow6 frame = new NewWindow6();
+				//frame.setVisible(true);
+				//set default close operation
+				//setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+                            new PlanToolPBE();
+			}
+		});
+                
+                
+                btnNewFramea.setFont(new Font("Microsoft YaHei UI", Font.BOLD, 12));
+		//set bounds of the Button
+		btnNewFramea.setBounds(280, 650, 178, 25);
     
     JButton btnNewFrame = new JButton("Continue");
 		//add actionListener
@@ -58,7 +76,7 @@ public class PlanOntology3 {
 			public void actionPerformed(ActionEvent arg0)
 			{
 				//call the object of NewWindow and set visible true
-				NewWindow8 frame = new NewWindow8();
+				NewWindow9 frame = new NewWindow9();
 				frame.setVisible(true);
 				//set default close operation
 				//setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
@@ -72,7 +90,9 @@ public class PlanOntology3 {
                 
                 f.getContentPane().add(ta);
     //add Button into contentPane
+                ta.add(btnNewFramea);
 		ta.add(btnNewFrame);
+                
                 f.pack();
                 f.setVisible(true);
 		((AbstractDocument)ta.getDocument()).dump(System.out);
