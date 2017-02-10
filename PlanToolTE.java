@@ -2,6 +2,8 @@ import java.awt.BorderLayout;
 import java.awt.FlowLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
  
 import javax.swing.AbstractAction;
 import javax.swing.BorderFactory;
@@ -113,7 +115,7 @@ public class PlanToolTE {
     buttonPanel.add(clearbutton);
     
     
-    buttonPanel.add(clearbutton);
+    //buttonPanel.add(clearbutton);
     
     newuserpanel = new JPanel(new BorderLayout());
     newuserpanel.add(userInputPanel,BorderLayout.NORTH);
@@ -172,9 +174,51 @@ public class PlanToolTE {
  
         public void actionPerformed(ActionEvent e){
             performSubmit();
+            try{
+    // Create file
+    FileWriter fstream = new FileWriter("C:\\Users\\DrSMarkham\\Desktop\\out.txt");
+    BufferedWriter out = new BufferedWriter(fstream);
+    
+    out.write(verbtextfield.getText());
+    out.write(taskertextfield.getText());
+    out.write(taskeetextfield.getText());
+    out.write(affecttextfield.getText());
+    out.write(actiontextfield.getText());
+    out.write(atwheretextfield.getText());
+    out.write(routewheretextfield.getText());
+    out.write(startwhentextfield.getText());
+    out.write(endwhentextfield.getText());
+    out.write(whytextfield.getText());
+    out.write(labeltextfield.getText());
+    out.write(modtextfield.getText());
+    
+    //out.write(data);
+    //Close the output stream
+    out.close();
+    } catch (Exception evt){//Catch exception if any
+    System.err.println("Error: " + evt.getMessage());
+    }
+            
         }
     }
  
+    //private void okButtonActionPerformed(java.awt.event.ActionEvent evt) {
+    // TODO add your handling code here:
+    //data =dataText.getText();
+    //try{
+    // Create file
+    //FileWriter fstream = new FileWriter("C:\\Users\\DrSMarkham\\Desktop\\out.txt");
+    //BufferedWriter out = new BufferedWriter(fstream);
+    //out.write(data);
+    //Close the output stream
+    //out.close();
+    //}catch (Exception e){//Catch exception if any
+    //System.err.println("Error: " + e.getMessage());
+    //}
+    //dataText.setText("");
+    //}
+    
+    
     private final class ClearAction extends AbstractAction{
  
         public ClearAction(){
