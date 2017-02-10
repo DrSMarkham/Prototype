@@ -30,6 +30,8 @@ public class PlanToolTE {
     private JTextField labeltextfield;
     private JTextField modtextfield;
     
+    
+    
     //private JTextField 
     //private JTextField
     //private JTextField
@@ -73,39 +75,51 @@ public class PlanToolTE {
     userInputPanel.add(firstname);
     userInputPanel.add(verbtextfield);
     verbtextfield.setColumns(15);
+    verbtextfield.setText("Write 'verb' then ','");
     userInputPanel.add(lastname);
     userInputPanel.add(taskertextfield);
     taskertextfield.setColumns(15);
+    taskertextfield.setText("Write 'tasker' then ','");
     userInputPanel.add(email);
     userInputPanel.add(taskeetextfield);
     taskeetextfield.setColumns(15);
+    taskeetextfield.setText("Write 'taskee' then ','");
     userInputPanel.add(phone);
     userInputPanel.add(affecttextfield);
     affecttextfield.setColumns(15);
+    affecttextfield.setText("Write 'affect' then ','");
     userInputPanel.add(action);
     userInputPanel.add(actiontextfield);
     actiontextfield.setColumns(15);
+    actiontextfield.setText("Write 'action' then ','");
     userInputPanel.add(atwhere);
     userInputPanel.add(atwheretextfield);
     atwheretextfield.setColumns(15);
+    atwheretextfield.setText("Write 'at-where' then ','");
     userInputPanel.add(routewhere);
     userInputPanel.add(routewheretextfield);
     routewheretextfield.setColumns(15);
+    routewheretextfield.setText("Write 'route-where' then ','");
     userInputPanel.add(startwhen);
     userInputPanel.add(startwhentextfield);
     startwhentextfield.setColumns(15);
+    startwhentextfield.setText("Write 'start-when' then ','");
     userInputPanel.add(endwhen);
     userInputPanel.add(endwhentextfield);
     endwhentextfield.setColumns(15);
+    endwhentextfield.setText("Write 'end-when' then ','");
     userInputPanel.add(why);
     userInputPanel.add(whytextfield);
     whytextfield.setColumns(15);
+    whytextfield.setText("Write 'why' then ','");
     userInputPanel.add(label);
     userInputPanel.add(labeltextfield);
     labeltextfield.setColumns(15);
+    labeltextfield.setText("Write 'label' then ','");
     userInputPanel.add(mod);
     userInputPanel.add(modtextfield);
     modtextfield.setColumns(15);
+    modtextfield.setText("Write 'mod' then ','");
     
     submitbutton = new JButton(new SubmitAction());
     clearbutton = new JButton(new ClearAction());
