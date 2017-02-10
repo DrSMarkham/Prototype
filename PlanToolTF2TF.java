@@ -2,6 +2,8 @@ import java.awt.BorderLayout;
 import java.awt.FlowLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
  
 import javax.swing.AbstractAction;
 import javax.swing.BorderFactory;
@@ -40,20 +42,25 @@ public class PlanToolTF2TF {
     resourcetextfield = new JTextField();
     hazardtextfield = new JTextField();
     envfactextfield= new JTextField();
-    JPanel userInputPanel = new JPanel(new GridLayout(4,2,5,20));
+    
+    JPanel userInputPanel = new JPanel(new GridLayout(4,5,5,5));
     userInputPanel.setBorder(BorderFactory.createEmptyBorder(50,50,80,80));
     userInputPanel.add(firstname);
     userInputPanel.add(roletextfield);
     roletextfield.setColumns(15);
+    roletextfield.setText("Enter roles separated by commas");
     userInputPanel.add(lastname);
     userInputPanel.add(resourcetextfield);
     resourcetextfield.setColumns(15);
+    resourcetextfield.setText("Enter resources separated by commas");
     userInputPanel.add(email);
-    userInputPanel.add(hazardtextfield);
+    userInputPanel.add(hazardtextfield);    
     hazardtextfield.setColumns(15);
+    hazardtextfield.setText("Enter hazards separated by commas");
     userInputPanel.add(phone);
     userInputPanel.add(envfactextfield);
     envfactextfield.setColumns(15);
+    envfactextfield.setText("Enter environmental factors separated by commas");
  
     submitbutton = new JButton(new SubmitAction());
     clearbutton = new JButton(new ClearAction());
@@ -76,7 +83,6 @@ public class PlanToolTF2TF {
     newuser.setVisible(true);
  
     }
- 
     private void performSubmit(){
  
     roletextfield.getText();
@@ -94,7 +100,8 @@ public class PlanToolTF2TF {
         hazardtextfield.setText("");
        envfactextfield.setText("");
     }
- 
+    
+    
     private final class SubmitAction extends AbstractAction{
  
         public SubmitAction() {
@@ -104,9 +111,29 @@ public class PlanToolTF2TF {
  
         public void actionPerformed(ActionEvent e){
             performSubmit();
+            try{
+    // Create file
+    FileWriter fstream = new FileWriter("C:\\Users\\DrSMarkham\\Desktop\\outet.txt");
+    BufferedWriter out = new BufferedWriter(fstream);
+    
+    out.write(roletextfield.getText());
+    out.write(resourcetextfield.getText());
+    out.write(hazardtextfield.getText());
+    out.write(envfactextfield.getText());
+    
+    //out.write(data);
+    //Close the output stream
+    out.close();
+    } catch (Exception evt){//Catch exception if any
+    System.err.println("Error: " + evt.getMessage());
+    }
+            
         }
     }
+    
+    
  
+    
     private final class ClearAction extends AbstractAction{
  
         public ClearAction(){
