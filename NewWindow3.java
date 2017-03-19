@@ -166,5 +166,3 @@ public class NewWindow3 extends JFrame
 
 
 
-
-
