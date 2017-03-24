@@ -1,4 +1,3 @@
-import static com.sun.glass.ui.Cursor.setVisible;
 import java.awt.GridLayout;
  
 import java.awt.event.ActionEvent;
@@ -196,7 +195,7 @@ class InputPanel1 extends JPanel {
          add(modField);
          
          add(saveToFileButton);
-         add(cont);
+         //add(cont);
          add(clear);
     }                   
 }
