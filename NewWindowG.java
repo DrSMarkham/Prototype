@@ -39,23 +39,45 @@ public class NewWindowG extends JFrame {
 		{
 			public void actionPerformed(ActionEvent arg0)
 			{
-				//call the object of NewWindow and set visible true
-				NewWindowSem frame = new NewWindowSem();
+				//new PlanToolG();
+//call the object of NewWindow and set visible true
+				PlanToolG1 frame = new PlanToolG1();
 				frame.setVisible(true);
 				//set default close operation
-				//setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+				setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 			}
 		});
                 
                 btnNewFrame11.setFont(new Font("Microsoft YaHei UI", Font.BOLD, 12));
 		//set bounds of the Button
 		btnNewFrame11.setBounds(280, 650, 178, 25);
+                
+                JButton btnNewFramea = new JButton("Deploy Tool");
+		//add actionListener
+		btnNewFramea.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent arg0)
+			{
+				//call the object of NewWindow and set visible true
+				GraphModel frame = new GraphModel();
+				frame.setVisible(true);
+				//set default close operation
+				setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+                            //new PlanToolPBA();
+			}
+		});
+                btnNewFramea.setFont(new Font("Microsoft YaHei UI", Font.BOLD, 12));
+		//set bounds of the Button
+		btnNewFramea.setBounds(280, 650, 178, 25);
+                
+                
 
         l1=new JLabel("Digraph");
         //b1=new JButton("Continue");
 
         background.add(l1);
         background.add(btnNewFrame11);
+        background.add(btnNewFramea);
     }
 
     public static void main(String args[]) 
