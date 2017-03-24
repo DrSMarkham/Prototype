@@ -1,3 +1,4 @@
+import static com.sun.glass.ui.Cursor.setVisible;
 import java.awt.GridLayout;
  
 import java.awt.event.ActionEvent;
@@ -105,9 +106,10 @@ class InputPanel extends JPanel {
 		{
 			public void actionPerformed(ActionEvent arg0)
 			{
-				//call the object of NewWindow and set visible true
-				NewWindowSem frame = new NewWindowSem();
-				frame.setVisible(true);
+				new PlanToolTEE();
+//call the object of NewWindow and set visible true
+				//PlanToolTEE frame = new PlanToolTEE();
+				//frame.setVisible(true);
 				//set default close operation
 				//setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 			}
@@ -174,7 +176,7 @@ class InputPanel extends JPanel {
          
          add(saveToFileButton);
          add(clear);
-         add(cont);
+         //add(cont);
          
          
          
