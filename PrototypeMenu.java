@@ -102,14 +102,14 @@ public class Prototypemenu extends Application {
         EventHandler<ActionEvent> MEHandler = 
                 new EventHandler<ActionEvent>() {
                     public void handle(ActionEvent ae) {
-                        String name = ((MenuItem)ae.getTarget()).getText();
+                       String name = ((MenuItem)ae.getTarget()).getText();
                         
                         if(name.equals("Exit")) Platform.exit();
                         
                         response.setText( name = "selected");
                         //new PlanOntology3();
                         
-                    }
+                   }
                 };
         
         
@@ -122,7 +122,7 @@ public class Prototypemenu extends Application {
                         if(name.equals("Exit")) Platform.exit();
                         
                         response.setText( name = "selected");
-                        new NewWindow9();
+                        new PrototypeMenu2();
                         
                     }
                 };
@@ -150,7 +150,7 @@ public class Prototypemenu extends Application {
                         response.setText( name = "selected");
                         //new NewWindow2();
                         //new PlanToolAna();
-                        PlanToolSea frame = new PlanToolSea();
+                        NewWindow2 frame = new NewWindow2();
 			frame.setVisible(true);
                     }
                 };
