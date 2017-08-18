@@ -1,0 +1,1657 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#"
+     xml:base="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#amount-needed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#amount-needed">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ResourceRequirement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#has-C2-details -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#has-C2-details">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#MOOTW"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#MilitaryOperation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#C2"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#has-IssuesActualised-details -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#has-IssuesActualised-details">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EnforcementOfSanctions"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#HumanitarianAssistance"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Non-combatantEvacuationOperations"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ProtectionOfShipping"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#RecoveryOperations"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ShowOfForceOperations"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#StabilityOperations"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SupportToInsurgency"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Anti-Terrorism&amp;Counter-Terrorism"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#NationalAssistance/SupportToCOIN"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Strikes&amp;Raids"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#IssuesActualised"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#has-IssuesAnticipated-details -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#has-IssuesAnticipated-details">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EnforcementOfSanctions"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#HumanitarianAssistance"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Non-combatantEvacuationOperations"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ProtectionOfShipping"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#RecoveryOperations"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ShowOfForceOperations"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#StabilityOperations"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SupportToInsurgency"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Anti-Terrorism&amp;Counter-Terrorism"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#NationalAssistance/SupportToCOIN"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Strikes&amp;Raids"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#IssuesAnticipated"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#has-Lesson-details -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#has-Lesson-details">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#MOOTW"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#MilitaryOperation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Lesson"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#resource-needed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#resource-needed">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ResourceRequirement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#when-needed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#when-needed">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ResourceRequirement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#day -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#day">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#month -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#month">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#name">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#year -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#year">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ACTION-ACTOR -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ACTION-ACTOR">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Script"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">adaptability</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">assertiveness</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">communicating</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">complex-continuous-motor-skill</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">coordination</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">decision-making-and-problem-solving</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">detecting</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">developing-and-dealing-with-concepts</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">identifying-and-recognising-patterns</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">leadership</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">mission-analysis</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">performance-monotoring-and-feedback</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">procedure-following</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">recalling-bodies-of-knowledge</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">simple-discrete-motor-skill</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">situational-awareness</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ACTION-CONDITION -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ACTION-CONDITION">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Script"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ACTION-EFFECT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ACTION-EFFECT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Script"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ACTION-EVENT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ACTION-EVENT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Script"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ACTION-INNOVATION -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ACTION-INNOVATION">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Script"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ACTION-INSIGHT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ACTION-INSIGHT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Script"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ACTION-OBSERVATION -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ACTION-OBSERVATION">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Script"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ACTION-RESOURCE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ACTION-RESOURCE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Script"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ACTION-TASK -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ACTION-TASK">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Script"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ActionAnticipated -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ActionAnticipated">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#MilitaryOperation"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">advance</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">at-where</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">defend</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">deviation-from-plan</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">effectiveness-of-action</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">end-when</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">key-decision-point</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">label</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">loss-of-situation-awareness</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">mod</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">route-where</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">start-when</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">taskee</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">tasker</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">verb</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">where</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">why</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ActionExecuted -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ActionExecuted">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#MilitaryOperation"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">affected|action</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">certainty</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">deviation-from-plan</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">effectiveness-of-action</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">event-report</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">everb</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">executer</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">hostility</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">identification</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">key-decision-point</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">label</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">loss-of-situation-awareness</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">mod</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">regarding</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">status-report</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">status-value</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">task-report</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">verb</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">when</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">where</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">why</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Advising -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Advising">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SecurityForceCapacityBuilding"/>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">advice</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">assistance</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">guidance</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Afloat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Afloat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#CommandStructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Analysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Analysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Lesson"/>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">inspect-ability</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">traceable-effect</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">verifiable</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Ashore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Ashore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#CommandStructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#AssistanceToOtherAgencies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#AssistanceToOtherAgencies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#StabilityOperations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#BattlespaceManagement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#BattlespaceManagement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SituationAwareness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#BoardingOperationsRiskAssessment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#BoardingOperationsRiskAssessment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EnforcementOfSanctions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#BoardingOperationsTraining -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#BoardingOperationsTraining">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EnforcementOfSanctions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Building -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Building">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SecurityForceCapacityBuilding"/>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">equipping</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">infrastructure</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">recruiting</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">selection</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">structuring</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#C2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#C2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Plan"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">asset</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">decisionpoint</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">direction</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">tactics</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#C2Warfare -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#C2Warfare">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#FunctionsOfCombat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#CSS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#CSS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#FunctionsOfCombat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#CoastalSeaControl -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#CoastalSeaControl">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ProtectionOfShipping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#CombinedTrainingExercise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#CombinedTrainingExercise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ShowOfForceOperations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Command -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Command">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#FunctionsOfCombat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#CommandRelationships -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#CommandRelationships">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SituationAwareness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#CommandStructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#CommandStructure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ProtectionOfShipping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#CommandersIntent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#CommandersIntent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SituationAwareness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Communication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Communication">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#HumanitarianAssistance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#CommunicationAndCoordinationStrategies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#CommunicationAndCoordinationStrategies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EnforcementOfSanctions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Content -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Content">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Lesson"/>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">authentic</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ControlStrategy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ControlStrategy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#LogisticOptimisation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#CoordinationGuidelines -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#CoordinationGuidelines">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SituationAwareness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#CoordinationWithLocalLawEnforcement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#CoordinationWithLocalLawEnforcement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Anti-Terrorism&amp;Counter-Terrorism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#CountermineOperations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#CountermineOperations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ProtectionOfShipping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Crime_PreventionAndPhysicalSecurityActions-Theft -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Crime_PreventionAndPhysicalSecurityActions-Theft">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Anti-Terrorism&amp;Counter-Terrorism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#DLoDs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#DLoDs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ActionExecuted"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">modification</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">new-requirement</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">performance</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">quantity</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#DemonstrationOfIncreasedLevelOfReadiness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#DemonstrationOfIncreasedLevelOfReadiness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ShowOfForceOperations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#DetectionOptimisation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#DetectionOptimisation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EnforcementOfSanctions"/>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">political-implications</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EconomicAndSocialAspects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EconomicAndSocialAspects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EnforcementOfSanctions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Enabling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Enabling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SecurityForceCapacityBuilding"/>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">augment-capacity</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">provide-specialisation</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EnforcementOfSanctions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EnforcementOfSanctions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#MOOTW"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EnhancingTheRuleOfLaw -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EnhancingTheRuleOfLaw">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#StabilityOperations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EnvironmentalDefence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EnvironmentalDefence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ProtectionOfShipping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EnvironmentalGuidance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EnvironmentalGuidance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SituationAwareness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Equipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Equipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#DLoDs"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">vehicles</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">weapons/ammo</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Escalate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Escalate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Lesson"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EstablishCivilControl -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EstablishCivilControl">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#NationalAssistance/SupportToCOIN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EstablishSecurity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EstablishSecurity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#NationalAssistance/SupportToCOIN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EvaluationOfAppropriateEmbargoListToMeetActions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EvaluationOfAppropriateEmbargoListToMeetActions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EconomicAndSocialAspects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EvasionAndEscape -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EvasionAndEscape">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SupportToInsurgency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Exercises -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Exercises">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Lesson"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Experiment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Experiment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Lesson"/>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">operational</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">stategic</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#FID -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#FID">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#NationalAssistance/SupportToCOIN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Firepower -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Firepower">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#FunctionsOfCombat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#FunctionsOfCombat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#FunctionsOfCombat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ActionExecuted"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#GainOrIncreaseInfluence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#GainOrIncreaseInfluence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Rationale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#GoalSpecification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#GoalSpecification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#PlanCommitment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#HUMINTreports -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#HUMINTreports">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EstablishCivilControl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#HarbourDefence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#HarbourDefence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ProtectionOfShipping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#HumanitarianAssistance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#HumanitarianAssistance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#MOOTW"/>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">disease</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">human-pain</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">hunger</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">man-made-disaster</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">natural-disaster</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">privation</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#HumanitarianIssues -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#HumanitarianIssues">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EconomicAndSocialAspects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#InfluenceOfROE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#InfluenceOfROE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EnforcementOfSanctions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Information -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Information">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#DLoDs"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">comms</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">ecm</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">it/is</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">media</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">star</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#InformationAndIntelligence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#InformationAndIntelligence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#FunctionsOfCombat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Infrastructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Infrastructure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#DLoDs"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">facilities</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">finance</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">op-bases</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">services</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">trg-estate</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#IntelligenceGathering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#IntelligenceGathering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SupportToInsurgency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Interoperability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Interoperability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#DLoDs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#IssuesActualised -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#IssuesActualised">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#MOOTW"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#IssuesAnticipated -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#IssuesAnticipated">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#MOOTW"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Lesson -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Lesson">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Plan"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">agency</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">focus</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">follow-up</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">implied-action</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">knowledge-type</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">measurable-effects</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">significance/function</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">stakeholders</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">system</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#LessonIdentified -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#LessonIdentified">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Lesson"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Linkup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Linkup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SupportToInsurgency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#LogisticOptimisation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#LogisticOptimisation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EnforcementOfSanctions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#LogisticSupport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#LogisticSupport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#HumanitarianAssistance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Logistics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Logistics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#DLoDs"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">management-information-systems</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">materiel</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">medical</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">movement</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#MOOTW -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#MOOTW">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Plan"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">area-of-operations</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">mission-statement</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">objective</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">operation-type</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">operational-environment</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Maneouvre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Maneouvre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#FunctionsOfCombat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Mentoring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Mentoring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SecurityForceCapacityBuilding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#MilitaryOperation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#MilitaryOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Plan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#MilitaryOperationalAction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#MilitaryOperationalAction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Non-combatantEvacuationOperations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#MissionObjectives -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#MissionObjectives">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SituationAwareness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Non-combatantEvacuationOperations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Non-combatantEvacuationOperations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#MOOTW"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ObjectOrientedAnalysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ObjectOrientedAnalysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#LogisticOptimisation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ObservationsCollection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ObservationsCollection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Lesson"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Operations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Operations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#RecoveryOperations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Organisation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Organisation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#DLoDs"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">equipment</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">establishment</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Personnel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Personnel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#DLoDs"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">conditions-of-service</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">manning/drafting</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#PhysicalSecurityActions-UnauthorisedAcess -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#PhysicalSecurityActions-UnauthorisedAcess">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Anti-Terrorism&amp;Counter-Terrorism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Plan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Plan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#PlanCommitment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#PlanCommitment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Plan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#PlanContext -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#PlanContext">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Plan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#PlanTask -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#PlanTask">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Plan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#PlanTaskDescription -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#PlanTaskDescription">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#PlanTask"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Policies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Policies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Anti-Terrorism&amp;Counter-Terrorism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#PoliticalStability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#PoliticalStability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EconomicAndSocialAspects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#PortSecurity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#PortSecurity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ProtectionOfShipping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Post -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Post">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Lesson"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#PreparingAForceToPerformGuerrillaWarfare -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#PreparingAForceToPerformGuerrillaWarfare">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SupportToInsurgency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Promote -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Promote">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Lesson"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Protection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Protection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#FunctionsOfCombat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ProtectionFromWMD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ProtectionFromWMD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Anti-Terrorism&amp;Counter-Terrorism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ProtectionOfShipping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ProtectionOfShipping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#MOOTW"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#PsychologicalOperations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#PsychologicalOperations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SupportToInsurgency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Publish -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Publish">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Lesson"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Quality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Quality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Lesson"/>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">accuracy</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">consistency</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">continuity</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">degree-of-completion</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">lifetime</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">reliability</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">secure</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">timeliness</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">value</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ROE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ROE">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#RulesOfEngagement"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SituationAwareness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Raids -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Raids">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Strikes&amp;Raids"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Rationale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Rationale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ShowOfForceOperations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#RecoveryOperations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#RecoveryOperations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#MOOTW"/>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">clandestine</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">covert</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">human-remains</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">items-critical-to-national-security</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">overt</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">personnel</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">sensitive-equipment</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ReportingData -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ReportingData">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Lesson"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">granularity</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">permissions</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">scope</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">topic</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ResourceRequirement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ResourceRequirement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#PlanTask"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#RestoreEssentialServices -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#RestoreEssentialServices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#FID"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ResupplyOperations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ResupplyOperations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SupportToInsurgency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#RootCauseAnalysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#RootCauseAnalysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Lesson"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#RulesOfEngagement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#RulesOfEngagement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#HumanitarianAssistance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Sabotage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Sabotage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SupportToInsurgency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ScheduleOfOperations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ScheduleOfOperations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SituationAwareness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ScopeOfOperations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ScopeOfOperations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SituationAwareness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Script -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Script">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ActionExecuted"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SecurityAssistance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SecurityAssistance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#NationalAssistance/SupportToCOIN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SecurityAssistanceSurge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SecurityAssistanceSurge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#NationalAssistance/SupportToCOIN"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SecurityForceCapacityBuilding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SecurityForceCapacityBuilding">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#StabilityOperations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SecurityIssue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SecurityIssue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#HumanitarianAssistance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SensorManagementPlans -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SensorManagementPlans">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SituationAwareness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ShowOfForceOperations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ShowOfForceOperations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#MOOTW"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SitingAndHardeningOfFacilities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SitingAndHardeningOfFacilities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Anti-Terrorism&amp;Counter-Terrorism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SituationAwareness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SituationAwareness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ActionExecuted"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SocialActivity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SocialActivity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EstablishCivilControl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Source -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Source">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#MOOTW"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">number-of-sources</rdfs:comment>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">non-repudiation</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#StabilityOperations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#StabilityOperations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#MOOTW"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">legitimacy</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">perseverence</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">restraint</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">security</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">unity-of-effort</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Strikes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Strikes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Strikes&amp;Raids"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Subversion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Subversion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SupportToInsurgency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SupportToDisarmament -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SupportToDisarmament">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#StabilityOperations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SupportToInitialGovernance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SupportToInitialGovernance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#StabilityOperations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SupportToInitialRestorationOfServices -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SupportToInitialRestorationOfServices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#StabilityOperations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SupportToInsurgency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SupportToInsurgency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#MOOTW"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SupportToSecuritySectorReform -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SupportToSecuritySectorReform">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#StabilityOperations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SurreptitiousInsertion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SurreptitiousInsertion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SupportToInsurgency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#TaskForceOrderOfBattle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#TaskForceOrderOfBattle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SituationAwareness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#TemporaryForceBuildUp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#TemporaryForceBuildUp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ShowOfForceOperations"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">region</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ThreatAssessment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#ThreatAssessment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SituationAwareness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Training -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Training">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#DLoDs"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">hft</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">individual-training</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">mst</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">rsoi</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Tutoring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Tutoring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SecurityForceCapacityBuilding"/>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">collective</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">formal-individual</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">instituition-creation</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#UnsolicitedPublicContacts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#UnsolicitedPublicContacts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EstablishCivilControl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Validity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Validity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Lesson"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">accuracy</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">appraisal</rdfs:comment>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">degree-of-completion</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">precision</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">reliability</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">richness</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">secure</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">temporality</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#WorldState -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#WorldState">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#PlanCommitment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Anti-Terrorism&amp;Counter-Terrorism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Anti-Terrorism&amp;Counter-Terrorism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#MOOTW"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">arson</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">assasination</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">bombing</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">hijacking</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">hoaxes</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">hostage-taking</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">kidnapping</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">maiming</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">raids&amp;ambushes</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">sabotage</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">seizure</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">use-of-nbc</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Bolster&amp;ReassureAllies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Bolster&amp;ReassureAllies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Rationale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Concepts&amp;Doctrine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Concepts&amp;Doctrine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#DLoDs"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">operational</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">tactical</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Demobilisation&amp;Reintegration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Demobilisation&amp;Reintegration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#StabilityOperations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Endorsement&amp;Tasking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Endorsement&amp;Tasking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Lesson"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Implementation&amp;Monitoring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Implementation&amp;Monitoring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Lesson"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Institutional&amp;InfrastructureDevelopment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Institutional&amp;InfrastructureDevelopment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#SupportToInsurgency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#NationalAssistance/SupportToCOIN -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#NationalAssistance/SupportToCOIN">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#MOOTW"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Political&amp;DiplomaticManoeuvring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Political&amp;DiplomaticManoeuvring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Non-combatantEvacuationOperations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Political&amp;DiplomaticNegotiations&amp;Manoeuvring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Political&amp;DiplomaticNegotiations&amp;Manoeuvring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#RecoveryOperations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#PotentialAggressorsDeterrence, -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#PotentialAggressorsDeterrence,">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Rationale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Security&amp;Control -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Security&amp;Control">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#StabilityOperations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Significance/Function -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Significance/Function">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Lesson"/>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">importance</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">operational</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">practical</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Strikes&amp;Raids -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Strikes&amp;Raids">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#MOOTW"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EndGame -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#EndGame">
+        <rdf:type rdf:resource="http://www.semanticweb.org/drsmarkham/ontologies/2017/7/untitled-ontology-3#Plan"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
